@@ -36,6 +36,29 @@ public class _61_Rotate_List {
         if (head == null) {
             return null;
         }
+        var cursor = head;
+        var size = 1;
+        while (cursor.next != null) {
+            cursor = cursor.next;
+            size++;
+
+        }
+        cursor.next = head;
+        k = k % size;
+        size = (size - k); // aka targetIndex
+        for (int i = 0; i < size; i++) {
+            cursor = head;
+            head = head.next;
+        }
+        cursor.next = null;
+
+        return head;
+    }
+
+    public ListNode rotateRight0(ListNode head, int k) {
+        if (head == null) {
+            return null;
+        }
         if (head.next == null || k == 0) {
             return head;
         }
