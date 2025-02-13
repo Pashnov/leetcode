@@ -1,10 +1,10 @@
 package org.axp.start;
 
-//https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/submissions/
-public class NumberOfStepsToReduceNumberToZero {
+// https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/description/
+public class _1342_NumberOfStepsToReduceNumberToZero {
 
     public static void main(String[] args) {
-        int i = new NumberOfStepsToReduceNumberToZero().numberOfSteps(14);
+        int i = new _1342_NumberOfStepsToReduceNumberToZero().numberOfSteps(14);
         System.out.println(i);
     }
 
