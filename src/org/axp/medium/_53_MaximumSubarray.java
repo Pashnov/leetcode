@@ -13,13 +13,16 @@ public class _53_MaximumSubarray {
         nums = new int[]{1};
         System.out.println(maxSubArray(nums) + " ->1");
 
-        nums = new int[]{5,4,-1,7,8};
-        System.out.println(maxSubArray(nums) + " ->23");
+//        nums = new int[]{5,4,-1,7,8};
+//        System.out.println(maxSubArray(nums) + " ->23");
+//
+//        nums = new int[]{-2,1};
+//        System.out.println(maxSubArray(nums) + " -> 1");
+//
+//        nums = new int[]{-2,-1};
+//        System.out.println(maxSubArray(nums) + " -> -1");
 
-        nums = new int[]{-2,1};
-        System.out.println(maxSubArray(nums) + " -> 1");
-
-        nums = new int[]{-2,-1};
+        nums = new int[]{-1,-2,-3};
         System.out.println(maxSubArray(nums) + " -> -1");
 
         nums = new int[]{1,2};
