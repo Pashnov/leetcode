@@ -1,11 +1,9 @@
 package org.axp.medium;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 // https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
-public class _153_FindMinimuminRotatedSortedArray {
+public class _153_FindMinimumInRotatedSortedArray {
 
     public static void main(String[] args) {
 //        System.out.println(findMin(new int[]{4,5,6,7,8,9,10,11,12,0,1,2}));
